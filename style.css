@@ -1,0 +1,62 @@
+body {
+  background: #c94b4b;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4b134f, #c94b4b);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4b134f, #c94b4b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.display-4 {
+  font-family: 'Tenor Sans', sans-serif;
+}
+
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 300px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn-lg {
+  padding: 1rem 2rem; 
+} 
+
+.btn-primary {
+  background-color: #F05F44;
+  border-color: #F05F44; 
+}
+
+.btn-primary:hover {
+  background-color: #ee4b08;
+  border-color: #ee4b08;
+  border-width: 5px;
+  cursor: pointer;
+}
+
+.btn-outline-success {
+  background-color: #F05F44;
+  border-color: #F05F44; 
+  color: white;
+}
+
+.btn-outline-success:hover {
+  background-color: #ee4b08;
+  border-color: #ee4b08;
+  border-width: 5px;
+  cursor: pointer;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.card-img-top {
+  height: 200px;
+}
+
+footer {
+  color:  #E69DB3;
+  text-align: center;
+  padding: 10px;
+}
