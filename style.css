@@ -48,11 +48,15 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  flex-direction: row;
+  flex-direction: row-reverse;
 }
 
 .card-img-top {
   height: 200px;
+}
+
+.card {
+  margin: 10px;
 }
 
 footer {
