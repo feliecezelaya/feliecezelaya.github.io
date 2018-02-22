@@ -47,8 +47,8 @@ body {
 .cards-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  flex-direction: row-reverse;
+  justify-content: space-around; 
+  flex-direction: row-reverse; 
 }
 
 .card-img-top {
